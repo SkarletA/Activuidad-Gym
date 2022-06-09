@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel=StyleSheet href="style.css" TYPE="text/css" media=screen>
-  <title>Hola Mundo</title>
+  <title>Freelancer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
@@ -26,53 +26,80 @@
       </ul>
     </nav>
   </header>
-  <main class= 'start' >
-    <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/profile.png">
-    <h1>START BOOTSTRAP</h1>
-    <label>______ &#9733______</label>
-    <p>Web Developer - Graphic Artist - User Experience Designer </p>
+  <main>
+    <section class='start'>
+      <img class="image-profile" src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/profile.png" alt="profile">
+      <h1 class="title">START BOOTSTRAP</h1>
+      <label>______ &#9733______</label>
+      <p>Web Developer - Graphic Artist - User Experience Designer </p>
+    </section>
+    <section class="title-portfolio">
+      <h1> PORTFOLIO </h1>
+      <label>______ &#9733______</label>
+    </section>
+    <section class="portfolio">
+      <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/cabin.png" alt="cabin">
+      <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/cake.png" alt="cabe">
+      <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/circus.png" alt="circus">
+      <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/game.png" alt="game">
+      <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/safe.png" alt="safe">
+      <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/submarine.png" alt="submarine">
+    </section>
+    <section class="about">
+      <section>
+        <h1 class="title-about">ABOUT</h1>
+        <label>______ &#9733______</label>
+      </section>
+      <div class="parrafo">
+        <p>Freelance is a free bootstraop theme created by Start Bootstrap. The download includes the complete source files 
+          Including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+        <p>Whether you are a student looking to showcase your work, a professional looking to atracct clients, or a grafic artist 
+          looking to share your projects, this template is the perfect starting point! </p>
+      </div>
+      <button class="btnAbout"><img class="icon-download" src="./assets/icon-download.png" alt="icon-download">Download Theme</button>
+    </section>
+    <section class="contact">
+      <section class="contact-me">
+        <h1>CONTACT ME</h1>
+        <label>______ &#9733______</label>
+      </section>
+      <form class="input">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email Address">
+        <input type="text" placeholder="Phone Number">
+        <textarea class="messageT" placeholder="Message"></textarea>
+        <div class="btn">
+          <button class="btn-send" type="submit">Send</button>
+        </div>
+      </form>
+    </section>
   </main>
-  <div>
-    <h1> Portfolio </h1><br>
-    <label>______ &#9733______</label>
-    </div>
-  <section class="portfolio">
-          <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/cabin.png">
-          <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/cake.png">
-          <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/circus.png">
-          <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/game.png">
-          <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/safe.png">
-          <img src="https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/freelancer-web/assets/submarine.png">
-  </section>
-  <section class="about">
-    <h1>ABOUT</h1>
-    <label>______ &#9733______</label>
-    <div class="parrafo">
-      <p>Freelance is a free bootstraop theme created by Start Bootstrap. The download includes the complete source files 
-        Including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-      <p>Whether you are a student looking to showcase your work, a professional looking to atracct clients, or a grafic artist 
-        looking to share your projects, this template is the perfect starting point! </p>
-    </div>
-    <button class="btnAbout"><i class="fa-thin fa-arrow-down-to-bracket"></i>e094 Download Theme</button>
-  </section>
   <footer class="rock">
-    <div class="contenedor">
-      <div >
+    <section class="contenedor">
+      <section class="location">
         <h1>LOCATION</h1>
         <p>3481 Melrose Place Beverly Hill, CA 90210</p>  
-      </div>
-     <div>
-        <h1>AROUND THE WEB</h1>
-        <p>Imagenes</p>  
-      </div>
-      <div>
+      </section>
+     <section class="around">
+       <div class="title-around">
+         <h1>AROUND THE WEB</h1>
+       </div>
+       <div class="social-networks">
+         <img class="icon-facebook" src="./assets/icon-facebook.png" alt="icon-facebook">
+         <img class="icon-google" src="./assets/icon-google.png" alt="icon-google">
+         <img class="icon-twitter" src="./assets/icon-twitter.png" alt="icon-twitter">
+         <img class="icon-linkedln" src="./assets/icon-linkedln.png" alt="icon-linkedln">
+         <img class="icon-navegador" src="./assets/icon-navegador.png" alt="icon-navegador">
+       </div>
+      </section>
+      <section class="about-freelancer">
         <h1>ABOUT FREELANCER</h1>
-        <p>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></p>  
-      </div>
-   </div>
-   <div class="extra">
+        <p class="text-footer">Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span></p>  
+      </section>
+   </section>
+   <section class="extra">
      <p>Copyright Your Website 2017</p>
-   </div>
+   </section>
   </footer>
 </body>
 </html>
